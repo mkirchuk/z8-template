@@ -7,7 +7,10 @@ Application.viewportCls = 'org.zenframework.z8.template.Viewport';
 // Перечень JS-классов, описывающих визуальные компоненты, встречающиеся в BL-коде
 // в атрибутах [ui]. Заполнение не обязательно, но ускоряет агрузку приложения
 Z8.apply(Application.subclasses, {
-	'org.zenframework.z8.template.controls.EMail': 'org.zenframework.z8.template.controls.EMail'
+	'org.zenframework.z8.template.controls.EMail': 'org.zenframework.z8.template.controls.EMail',
+	'org.zenframework.z8.template.controls.xml': 'org.zenframework.z8.template.controls.xml',
+	'org.zenframework.z8.template.controls.youtube': 'org.zenframework.z8.template.controls.youtube',
+	'org.zenframework.z8.template.controls.doc': 'org.zenframework.z8.template.controls.doc'
 });
 
 // Поведение списков-деревьев по умолчанию
