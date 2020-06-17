@@ -16,7 +16,7 @@ Eclipse workspace configuration:
     - для реализации подсветки использовалась библиотека CodeMirror вместо highlight.js
     - highlight.js не умеет работать с textarea (https://stackoverflow.com/questions/19346975/highlight-js-in-textarea/27553858 
     ответ " highlight.js won't work in a textarea because its content is not part of the page and it simply can't have any styles by itself.")
-    - CodeMirror заменяет textarea на <div class="CodeMirror cm-s-default"> ...
+    - CodeMirror заменяет textarea на div class="CodeMirror cm-s-default" ...
     - не совсем корректо работает сохранение/отображение, но на backend в request.json значение "xml" отправляется.
     - подсветка xml/html кода работает.
 2. **YouTube проигрыватель**
